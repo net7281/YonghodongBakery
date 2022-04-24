@@ -1,0 +1,162 @@
+
+
+/****font*****/
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* { 
+font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+/*************/
+
+
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color : #333;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
+/**인덱스 스타일***/
+body {
+    overflow: hidden;
+}
+.wrap {
+    width: 100%;
+    height: 100%;
+    margin:  0 auto;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+.menu {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    z-index: 6;
+}
+.menu a {
+    position: relative;
+    float: left;
+    font-size: 1vw;
+    margin-top: 60px;
+    line-height: 30px;
+}
+.menu li:nth-of-type(1){
+    margin-left: 81%;
+}
+.menu li:nth-of-type(2){
+    margin-left: 85%;
+}
+.menu li:nth-of-type(3){
+    margin-left: 89%;
+}
+/*.up {
+    width: 100%;
+    height: 330px;
+}*/
+.bigmove {
+    position: absolute;
+    width: 950px;
+    height: 950px;
+    background-color: #FFEFC4;
+    border-radius: 50%;
+    top: -730px;
+    left: -730px;
+    z-index: 3;
+}
+.linecir {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-color: transparent;
+    border: 2px solid #F28705;
+    opacity: 0.7;
+    border-radius: 50%;
+    top: -730px;
+    left: -230px;
+    z-index: 5;
+}
+.video{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 6;
+    top: -200px; 
+    right: -200px;
+}
+.video video{
+    position: absolute;
+    visibility: visible;
+}
+
+.video img{
+    position: absolute;
+    visibility: hidden;
+}
+
+@media(max-width:769px){
+    .video video{
+        visibility: hidden;
+    }
+    
+    .video img{
+        visibility: visible;
+    }
+}
+.cirimg{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: 0px; 
+    right: -360px;
+    opacity: 80%;
+}
+.txt {
+    position: absolute;
+    width: 100%;
+    bottom: 10vw;
+    z-index: 50;
+}
+.sub {
+    margin-left: 10.3%;
+    margin-bottom: 1.6vw;
+    font-family: 'Pretendard',sans-serif;
+    font-size: 1.2vw;
+    color: #401201;
+}
+.title {
+    margin-left: 10.3%;
+    margin-top: 5px;
+    font-family: 'HSGyeoulNoonkott20';
+    font-size: 4.8vw;
+    color: #401201;
+}
+.btn {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    opacity: 0%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #F28705;
+}
+.btnmb {
+    visibility: hidden;
+}
