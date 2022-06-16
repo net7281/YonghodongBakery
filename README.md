@@ -10,7 +10,7 @@
 
 ##### 👇👇 Click Here
 
-https://net7281.github.io/YonghodongBakery/six.html
+https://net7281.github.io/YonghodongBakery/
 
 <br>
 <br>
