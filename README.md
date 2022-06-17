@@ -17,13 +17,13 @@ https://net7281.github.io/YonghodongBakery/
 
 ##### 🍞The Reason why we bake this page<br>
 
-우리가 태어난 고향인 '용호동'의 빵집이 잘되기 위한 마음을 담아 제작하였습니다
+> 우리가 태어난 고향인 '용호동'의 빵집이 잘되기 위한 마음을 담아 제작하였습니다
 
 
 ##### 🤸‍♀️Team member
 
-**netBoss(me)** https://github.com/net7281 <br>
-**chocho** https://chochojj.github.io/chocho/
+> **netBoss(me)** https://github.com/net7281 <br>
+> **chocho** https://chochojj.github.io/chocho/
 
 
 
